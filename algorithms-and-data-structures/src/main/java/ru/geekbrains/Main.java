@@ -13,14 +13,14 @@ public class Main {
         list.put(", ");
         list.put("world");
         list.put("!!!");
-        // Почему все-равно возвращается Object, хотя указаны дженерики?
-        for (Object str : list) {
+
+        for (String str : list) {
             System.out.print(str);
         }
         System.out.println();
 
         MyList<String> list2 = new MyArrayList<>("Hello", ", ", "world", "!!!");
-        for (Object str : list2) {
+        for (String str : list2) {
             System.out.print(str);
         }
         System.out.println();
@@ -34,7 +34,7 @@ public class Main {
         linkedList.put(", ");
         linkedList.put("world");
         linkedList.put("!!!");
-        for (Object str : linkedList) {
+        for (String str : linkedList) {
             System.out.print(str);
         }
         System.out.println(linkedList.get(0));
