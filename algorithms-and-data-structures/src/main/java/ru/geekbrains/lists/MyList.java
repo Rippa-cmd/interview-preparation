@@ -1,7 +1,7 @@
 package ru.geekbrains.lists;
 
 
-public interface MyList<T> extends Iterable {
+public interface MyList<T> extends Iterable<T> {
 
     int size();
 
