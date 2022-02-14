@@ -18,6 +18,7 @@
         <module>oop-repetition</module>
         <module>algorithms-and-data-structures</module>
         <module>threads</module>
+        <module>hibernate</module>
     </modules>
 
 </project>
