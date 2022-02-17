@@ -19,6 +19,7 @@
         <module>algorithms-and-data-structures</module>
         <module>threads</module>
         <module>hibernate</module>
+        <module>tomcat-servlet</module>
     </modules>
 
 </project>
